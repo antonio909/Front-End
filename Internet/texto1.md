@@ -1,52 +1,62 @@
-Noções Básicas HTTP (HTTP Basics):
+# Introdução à Internet?
 
-* **O que é?** O HTTP é um protocolo de camada de aplicação que permite a comunicação
-  entre clientes (como seu navegador web) e servidores. É a base para a troca de dados na
-  World Wide Web.
+A internet é uma rede global de computadores interligados que trocam
+informações usando protocolos comuns. Ela surgiu nos anos 1960 nos
+Estados Unidos como um projeto militar (a ARPANET), e evoluiu para a
+infraestrutura de comunicação que conhecemos hoje. Atualmente, a
+internet permite acesso a uma vasta quantidade de informações,
+comunicação instantânea e diversos serviços, embora o acesso e a
+inclusão digital ainda sejam desafios em muitas partes do mundo.
 
-* **Modelo Requisição-Resposta:** O HTTP funciona em um ciclo de **requisição-resposta**
-  (client-server):
+## Conceito e funcionamento
 
-  * O **Cliente** (navegador) envia uma **Requisição HTTP** (HTTP Request) para o servidor.
+* **Rede de redes:** A Internet é uma rede que interconecta muitas
+  outras redes de computadores menores, tanto públicas quanto
+  privadas usando infraestruturas de alta capacidade.
 
-  * O **Servidor** processa a requisição e envia uma **Resposta HTTP** (HTTP Response) de
-    volta ao cliente.
+* **Protocolo comum:** Os computadores e dispositivos se comunicam
+  através de um conjunto de regras chamado protocolo de
+  comunicação, como TCP/IP.
 
-* **Métodos HTTP (HTTP Methods):** Também chamados de verbos, indicam a ação que o
-  cliente deseja realizar no recurso do servidor. Os mais comuns são:
+* **Endereçamento:** Cada dispositivo na rede possui um endereço
+  único, que permite o envio e o recebimento de dados. Os domínios
+  (como `www.google.com`) são convertidos em endereços IP através
+  do DNS (Domain Name System).
 
-  * **GET:** Solicita dados de um recurso específico (usado para carregar páginas).
+* **Infraestrutura Física:** A comunicação ocorre através de cabos
+  (como fibra ótica), torres de celular e satélites, que formam a
+  infraestrutura física da rede.
 
-  * **POST:** Envia dados a um servidor para criar/atualizar um recurso (usado para enviar
-    formulários).
+## Origem e evolução
 
-  * **PUT:** Atualiza um recurso ou cria um novo se não existir.
+* **Anos 1960:** A ideia de redes interconectadas surgiu, com o
+  desenvolvimento inicial da ARPANET, uma rede de computadores
+  militar dos EUA.
 
-  * **DELETE:** Exclui um recurso específico.
+* **Década de 1970 e 1980:** A rede evoluiu com a criação de protocolos
+  mais avançados e a conexão de mais instituições acadêmicas e de
+  pesquisa. O termo "internet" começou a ser usado.
 
-* **Componentes da Requisição/Resposta:**
+* **Década de 1990:** A internet se abriu para o uso comercial, com a
+  criação da World Wide Web (WWW) pela CERN, tornando-a
+  acessível ao público em geral através de navegadores.
 
-  * **URL:** Endereço do recurso.
+* **No Brasil:** A popularização começou em 1995 com a oferta de
+  serviços comerciais, e desde então o país tem visto um crescimento
+  expressivo no número de usuários.
 
-  * **Cabeçalhos (Headers):** Informações adicionais sobre a requisição ou a resposta (tipo
-    de conteúdo, cookies, etc.).
+## Uso e impacto
 
-  * **Corpo (Body - opcional):** Os dados reais que estão sendo enviados ou recebidos (o
-    conteúdo da página, dados de formulário, etc.).
+* **Informação:** A internet é uma fonte inesgotável de informação,
+  permitindo o acesso a artigos, notícias, pesquisas, etc.
 
-* **Códigos de Status (Status Codes):** Números de 3 dígitos na resposta que indicam o
-  resultado da requisição. Exemplos:
+* **Comunicação:** Facilita a comunicação instantânea e global por meio
+  de e-email, aplicativos de mensagens (como WhatsApp) e redes
+  sociais.
 
-  * **200 OK:** A requisição foi bem-sucedida.
+* **Comércio:** O comércio eletrônico cresceu significativamente, e hoje
+  é uma parte essencial da economia global.
 
-  * **404 Not Found:** O recurso solicitado não foi encontrado.
-
-  * **500 Internal Server Error:** Um erro ocorreu no servidor.
-
-* **Stateless (Sem Estado):** Originalmente, o HTTP é **stateless**, o que significa que o servidor
-  não armazena nenhuma informação sobre requisições anteriores. Para manter o "estado"
-  (como um login de usuário ou um carrinho de compras), são usadas tecnologias como
-  **Cookies** e **Sessions**.
-
-* **HTTPS:** É a versão segura do HTTP, usando o protocolo SSL/TLS para criptografar a
-  comunicação e garantir a segurança dos dados.
+* **Desafios:** Apesar do seu alcance, a exclusão digital ainda é uma
+  questão importante, com desigualdades de acesso entre diferentes
+  regiões e classes sociais.
